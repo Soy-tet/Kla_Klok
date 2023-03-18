@@ -1,0 +1,215 @@
+body{
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    justify-content: space-between;
+}
+.navbar .username{
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    margin:auto;
+    display: grid;
+    justify-content:space-between;
+    margin-top: 10vh;
+    gap: 50px;
+    width: 50vw;
+    margin-left: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .array1{
+    background-color:#107a8b;
+    padding:50px;
+    border-radius:3px;
+    font-size:4em;
+    font-family:courier;
+    transition:.3s;
+    margin:auto;
+    width:200px;
+    height:200px;
+    background: url(https://img.freepik.com/premium-photo/cool-tiger-logo-vector-illustration_780593-2690.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  }
+  .array1:hover{
+    background-color:#107a8b88;
+    cursor:pointer;
+    opacity: 80%;
+  }
+  .array2{
+    background-color:#2cb978;
+    padding:50px;
+    border-radius:3px;
+    font-size:4em;
+    font-family:courier;
+      transition:.3s;
+      margin:auto;
+      width:200px;
+      height:200px;
+      background: url(https://i.ebayimg.com/images/g/bwIAAOSw-aliaKEO/s-l500.jpg);
+      background-position: center;
+      background-size: cover;
+      box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  }
+  .array2:hover{
+    background-color:#2cb97888;
+    cursor:pointer;
+    opacity: 90%;
+  }
+  .array3{
+    background-color:#83e85a;
+    padding:50px;
+    border-radius:3px;
+    font-size:4em;
+    font-family:courier;
+    transition:.3s;
+    margin:auto;
+    width:200px;
+    height:200px;
+    background: url(https://img.freepik.com/free-vector/cute-chicken-chef-holding-fried-chicken-cartoon-icon-illustration-animal-food-icon-concept-isolated-flat-cartoon-style_138676-3132.jpg?w=2000);
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  }
+  .array3:hover{
+    background-color:#83e85a88;
+    cursor:pointer;
+    opacity: 80%;
+  }
+  .array4{
+    background-color:#3b5441;
+    padding:50px;
+    border-radius:3px;
+    font-size:4em;
+    font-family:courier;
+    transition:.3s;
+    margin:auto;
+    width:200px;
+    height:200px;
+    background: url(https://t3.ftcdn.net/jpg/03/61/43/86/360_F_361438655_qHRf82mnNvKFU0PwxOkAevO9RSzxF7ov.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  }
+  .array4:hover{
+    background-color:#3b544188;
+    cursor:pointer;
+    opacity: 90%;
+  }
+  .array5{
+    background-color:#ff1f5a;
+    padding:50px;
+    border-radius:3px;
+    font-size:4em;
+    font-family:courier;
+    transition:.3s;
+    margin:auto;
+    width:200px;
+    height:200px;
+    background: url(https://media.istockphoto.com/id/1218181961/vector/blue-crab-in-watercolor-style.jpg?s=170667a&w=0&k=20&c=3wzqW8EZU3vApf_RH29STAc-BD4OFFmuQoCrhvs6gjU=);
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  }
+  .array5:hover{
+    background-color:#ff1f5a77;
+    cursor:pointer;
+    opacity: 90%;
+  }
+  .array6{
+    background-color:#ff1f5a;
+    padding:50px;
+    border-radius:3px;
+    font-size:4em;
+    font-family:courier;
+    transition:.3s;
+    margin:auto;
+    width:200px;
+    height:200px;
+    background: url(https://aquaorinoco.com/16119/cirrhilabrus-rubrisquamis-red-velvet-fairy-wrasse.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  }
+  .array6:hover{
+    background-color:#ff1f5a77;
+    cursor:pointer;
+    opacity: 90%;
+  }
+  button{
+    margin-top:10px;
+  }
+  .array11{
+    background-color:#107a8b;
+    border-radius:3px;
+    font-size:4em;
+    font-family:courier;
+    transition:.3s;
+    margin:auto;
+    width:200px;
+    height:200px;
+    background: url(https://img.freepik.com/premium-photo/cool-tiger-logo-vector-illustration_780593-2690.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  }
+  .array11:hover{
+    background-color:#107a8b88;
+    cursor:pointer;
+    opacity: 80%;
+  }
+  .array22{
+    background-color:#2cb978;
+    border-radius:3px;
+    font-size:4em;
+    font-family:courier;
+      transition:.3s;
+      margin:auto;
+      width:200px;
+      height:200px;
+      background: url(https://i.ebayimg.com/images/g/bwIAAOSw-aliaKEO/s-l500.jpg);
+      background-position: center;
+      background-size: cover;
+      box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  }
+  .array22:hover{
+    background-color:#2cb97888;
+    cursor:pointer;
+    opacity: 90%;
+  }
+  .array33{
+    background-color:#83e85a;
+    border-radius:3px;
+    font-size:4em;
+    font-family:courier;
+    transition:.3s;
+    margin:auto;
+    width:200px;
+    height:200px;
+    background: url(https://img.freepik.com/free-vector/cute-chicken-chef-holding-fried-chicken-cartoon-icon-illustration-animal-food-icon-concept-isolated-flat-cartoon-style_138676-3132.jpg?w=2000);
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  }
+  .array33:hover{
+    background-color:#83e85a88;
+    cursor:pointer;
+    opacity: 80%;
+  }
+.container_main{
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+}
+.result{
+  display: grid;
+  height: 50vh;
+  margin: auto;
+  gap: 10px;
+}
+  
