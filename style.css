@@ -57,6 +57,7 @@ box-shadow:  5px 5px 6px #b1b1b1,
     justify-content: space-between;
     margin: auto;
     height: 100vh;
+    margin-top: -50px;
   }
   .result{
     display: grid;
