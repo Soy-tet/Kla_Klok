@@ -20,10 +20,12 @@ body{
 }
 .center {
   text-align: center;
-  background-color:#09a1ff;
+  background: #e0e0e0;
   padding: 50px 50px;
   border-radius: 50%;
   cursor: pointer;
+  box-shadow:  5px 5px 6px #b1b1b1,
+             -5px -5px 6px #ffffff;
 }
 .center:active{
   background-color: orange;
