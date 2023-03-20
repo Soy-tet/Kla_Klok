@@ -1,40 +1,85 @@
 body{
     margin: 0;
+    background-color: #e0e0e0;
+    overflow: hidden;
 }
 .navbar{
     display: flex;
     height: 50px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     justify-content: space-between;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.container_bottom{
+  width: auto;
+  height: auto;
+  margin: auto;
+  margin: auto;
+}
+.center {
+  text-align: center;
+  background-color:#09a1ff;
+  padding: 50px 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.center:active{
+  background-color: orange;
 }
 .navbar .username{
     margin: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .container{
-    margin:auto;
     display: grid;
     justify-content:space-between;
-    margin-top: 10vh;
     gap: 50px;
-    width: 50vw;
-    margin-left: 20px;
+    width: 40vw;
     grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    margin-left: 5vw;
+    /* background-color: rgba(0, 0, 0, 0.067); */
+    border-radius: 53px;
+background: #e0e0e0;
+box-shadow:  5px 5px 6px #b1b1b1,
+             -5px -5px 6px #ffffff;
+    padding: 30px;
+    transition: .3s;
+  }
+  .container_main{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    margin: auto;
+    height: 100vh;
+  }
+  .result{
+    display: grid;
+    width: 20vw;
+    gap: 10px;
+    height: 70vh;
+    margin: auto;
   }
   .array1{
     background-color:#107a8b;
-    padding:50px;
-    border-radius:3px;
-    font-size:4em;
+    padding:0px;
+    border-radius:50%;
     font-family:courier;
     transition:.3s;
-    margin:auto;
-    width:200px;
-    height:200px;
-    background-image: url(https://img.freepik.com/premium-photo/cool-tiger-logo-vector-illustration_780593-2690.jpg);
+    width:10vw;
+    height:10vw;
+    background-image: url(https://t3.ftcdn.net/jpg/05/64/39/76/360_F_564397616_QVNoMGlbYY1T4NAZFIXKHYu8OROH3QVA.jpg);
     background-position: center;
     background-size: cover;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 50%;
+box-shadow: inset 1px 1px 2px #0f7bff,
+            inset -1px -1px 2px #00ffd9;
   }
   .array1:hover{
     background-color:#107a8b88;
@@ -43,18 +88,19 @@ body{
   }
   .array2{
     background-color:#2cb978;
-    padding:50px;
-    border-radius:3px;
-    font-size:4em;
+    padding:0px;
+    border-radius:50%;
     font-family:courier;
       transition:.3s;
-      margin:auto;
-      width:200px;
-      height:200px;
-      background-image: url(https://i.ebayimg.com/images/g/bwIAAOSw-aliaKEO/s-l500.jpg);
+      width:10vw;
+      height:10vw;
+      background-image: url(https://m.media-amazon.com/images/I/612SY+4mhgL._AC_SL1384_.jpg);
       background-position: center;
       background-size: cover;
       box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+      box-shadow: inset 1px 1px 2px #a1ff09,
+            inset -1px -1px 2px #00ffd9;
+
   }
   .array2:hover{
     background-color:#2cb97888;
@@ -63,18 +109,18 @@ body{
   }
   .array3{
     background-color:#83e85a;
-    padding:50px;
-    border-radius:3px;
-    font-size:4em;
+    padding:0px;
+    border-radius:50%;
     font-family:courier;
     transition:.3s;
-    margin:auto;
-    width:200px;
-    height:200px;
-    background-image: url(https://img.freepik.com/free-vector/cute-chicken-chef-holding-fried-chicken-cartoon-icon-illustration-animal-food-icon-concept-isolated-flat-cartoon-style_138676-3132.jpg?w=2000);
+    width:10vw;
+    height:10vw;
+    background-image: url(https://as1.ftcdn.net/v2/jpg/05/52/99/70/500_F_552997022_T3K4dfb5Ini4N9xaXuK5C7aNJqZWtjPm.jpg);
     background-position: center;
     background-size: cover;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    box-shadow: inset 1px 1px 2px #a1ff09,
+            inset -1px -1px 2px #00ffd9;
   }
   .array3:hover{
     background-color:#83e85a88;
@@ -83,18 +129,19 @@ body{
   }
   .array4{
     background-color:#3b5441;
-    padding:50px;
-    border-radius:3px;
-    font-size:4em;
+    padding:0px;
+    border-radius:50%;
+    font-size:0px;
     font-family:courier;
     transition:.3s;
-    margin:auto;
-    width:200px;
-    height:200px;
-    background-image: url(https://media.istockphoto.com/id/1218181961/vector/blue-crab-in-watercolor-style.jpg?s=170667a&w=0&k=20&c=3wzqW8EZU3vApf_RH29STAc-BD4OFFmuQoCrhvs6gjU=);
+    width:10vw;
+    height:10vw;
+    background-image: url(https://cs4.pikabu.ru/post_img/big/2014/08/08/8/1407497474_1637522375.jpg);
     background-position: center;
     background-size: cover;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    box-shadow: inset 1px 1px 2px #ffda09,
+            inset -1px -1px 2px #ff9100;
   }
   .array4:hover{
     background-color:#3b544188;
@@ -103,18 +150,19 @@ body{
   }
   .array5{
     background-color:#ff1f5a;
-    padding:50px;
-    border-radius:3px;
-    font-size:4em;
+    padding:0px;
+    border-radius:50%;
+    font-size:0px;
     font-family:courier;
     transition:.3s;
-    margin:auto;
-    width:200px;
-    height:200px;
-    background-image: url(https://t3.ftcdn.net/jpg/03/61/43/86/360_F_361438655_qHRf82mnNvKFU0PwxOkAevO9RSzxF7ov.jpg);
+    width:10vw;
+    height:10vw;
+    background-image: url(https://img.freepik.com/premium-photo/beautiful-large-lobster-blue-red-color-bottom-sea_124507-39422.jpg?w=2000);
     background-position: center;
     background-size: cover;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    box-shadow: inset 1px 1px 2px #a1ff09,
+            inset -1px -1px 2px #00ffd9;
   }
   .array5:hover{
     background-color:#ff1f5a77;
@@ -123,18 +171,19 @@ body{
   }
   .array6{
     background-color:#ff1f5a;
-    padding:50px;
-    border-radius:3px;
-    font-size:4em;
+    padding:0px;
+    border-radius:50%;
+    font-size:0px;
     font-family:courier;
     transition:.3s;
-    margin:auto;
-    width:200px;
-    height:200px;
-    background-image: url(https://aquaorinoco.com/16119/cirrhilabrus-rubrisquamis-red-velvet-fairy-wrasse.jpg);
+    width:10vw;
+    height:10vw;
+    background-image: url(https://us.123rf.com/450wm/waichi2013th/waichi2013th2211/waichi2013th221100477/194212545-watercolor-whale-hand-painted-illustration-animal-watercolor-art-design-for-art-print-decoration.jpg?ver=6);
     background-position: center;
     background-size: cover;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    box-shadow: inset 1px 1px 2px #0990ff,
+            inset -1px -1px 2px #00ffd9;
   }
   .array6:hover{
     background-color:#ff1f5a77;
@@ -146,17 +195,19 @@ body{
   }
   .array11{
     background-color:#107a8b;
-    border-radius:3px;
-    font-size:4em;
+    border-radius:50%;
+    font-size:0px;
     font-family:courier;
     transition:.3s;
     margin:auto;
-    width:200px;
-    height:200px;
+    width:10vw;
+    height:10vw;
     background-image: url(https://img.freepik.com/premium-photo/cool-tiger-logo-vector-illustration_780593-2690.jpg);
     background-position: center;
     background-size: cover;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    box-shadow: inset 1px 1px 2px #a1ff09,
+            inset -1px -1px 2px #00ffd9;
   }
   .array11:hover{
     background-color:#107a8b88;
@@ -165,17 +216,19 @@ body{
   }
   .array22{
     background-color:#2cb978;
-    border-radius:3px;
-    font-size:4em;
+    border-radius:50%;
+    font-size:0px;
     font-family:courier;
       transition:.3s;
       margin:auto;
-      width:200px;
-      height:200px;
-      background-image: url(https://i.ebayimg.com/images/g/bwIAAOSw-aliaKEO/s-l500.jpg);
+      width:10vw;
+      height:10vw;
+      background-image: url(https://m.media-amazon.com/images/I/612SY+4mhgL._AC_SL1384_.jpg);
       background-position: center;
       background-size: cover;
       box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+      box-shadow: inset 1px 1px 2px #a1ff09,
+            inset -1px -1px 2px #00ffd9;
   }
   .array22:hover{
     background-color:#2cb97888;
@@ -184,32 +237,326 @@ body{
   }
   .array33{
     background-color:#83e85a;
-    border-radius:3px;
-    font-size:4em;
+    border-radius:50%;
+    font-size:0px;
     font-family:courier;
     transition:.3s;
     margin:auto;
-    width:200px;
-    height:200px;
+    width:10vw;
+    height:10vw;
     background-image: url(https://img.freepik.com/free-vector/cute-chicken-chef-holding-fried-chicken-cartoon-icon-illustration-animal-food-icon-concept-isolated-flat-cartoon-style_138676-3132.jpg?w=2000);
     background-position: center;
     background-size: cover;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    box-shadow: inset 1px 1px 2px #a1ff09,
+            inset -1px -1px 2px #00ffd9;
   }
   .array33:hover{
     background-color:#83e85a88;
     cursor:pointer;
     opacity: 80%;
   }
-.container_main{
-  display: flex;
-  width: 100vw;
-  justify-content: space-between;
+  .container_result_2{
+    display: grid;
+    height: 50vh;
+    gap: 20px;
+  }
+  .container_2{
+    display: grid;
+    gap: 20px;
+  }
+
+/* RESPONSIVE FOR MOBILE DEVICES  */
+@media screen and (max-width:1000px) {
+  .container{
+    display: grid;
+    justify-content:space-between;
+    gap: 50px;
+    width: 40vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    margin-left: 5vw;
+    /* background-color: rgba(0, 0, 0, 0.067); */
+    border-radius: 53px;
+background: #e0e0e0;
+box-shadow:  5px 5px 6px #b1b1b1,
+             -5px -5px 6px #ffffff;
+    padding: 30px;
+    transition: .3s;
+  }
+  .container_main{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    margin: auto;
+    height: 100vh;
+  }
+  .result{
+    display: grid;
+    width: 100vw;
+    height: 50vh;
+    gap: 10px;
+    margin: auto;
+  }
 }
-.result{
-  display: grid;
-  height: 50vh;
-  margin: auto;
-  gap: 10px;
+/* RESPONSIVE FOR MOBILE DEVICES  */
+@media screen and (max-width:700px) {
+  .container{
+    display: grid;
+    justify-content:space-between;
+    gap: 2px;
+    width: 78vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    margin-left: 0vw;
+
+    /* background-color: rgba(0, 0, 0, 0.067); */
+    border-radius: 20px;
+background: #e0e0e0;
+box-shadow:  2px 2px 3px #b1b1b1,
+             -2px -2px 3px #ffffff;
+    padding: 10px;
+    transition: .3s;
+    margin: auto;
+    margin-top: 2vh;
+  }
+  .container_main{
+    display: block;
+    width: 100vw;
+    justify-content: space-between;
+    margin: auto;
+    height: 100vh;
+  }
+  .result{
+    display: block;
+    /* display: grid; */
+    width: 100vw;
+    height: 40vh;
+    gap: 0px;
+    /* margin: auto; */
+    margin-top: 30px;
+  }
+  .array1{
+    background-color:#107a8b;
+    padding:0px;
+    border-radius:50%;
+    font-family:courier;
+    transition:.3s;
+    width:25vw;
+    height:25vw;
+    /* background-image: url(https://t3.ftcdn.net/jpg/05/64/39/76/360_F_564397616_QVNoMGlbYY1T4NAZFIXKHYu8OROH3QVA.jpg); */
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 50%;
+box-shadow: inset 1px 1px 2px #0f7bff,
+            inset -1px -1px 2px #00ffd9;
+  }
+  .array1:hover{
+    background-color:#107a8b88;
+    cursor:pointer;
+    opacity: 80%;
+  }
+  .array2{
+    background-color:#2cb978;
+    padding:0px;
+    border-radius:50%;
+    font-family:courier;
+      transition:.3s;
+      width:25vw;
+      height:25vw;
+      /* background-image: url(https://m.media-amazon.com/images/I/612SY+4mhgL._AC_SL1384_.jpg); */
+      background-position: center;
+      background-size: cover;
+      box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+      box-shadow: inset 1px 1px 2px #a1ff09,
+            inset -1px -1px 2px #00ffd9;
+
+  }
+  .array2:hover{
+    background-color:#2cb97888;
+    cursor:pointer;
+    opacity: 90%;
+  }
+  .array3{
+    background-color:#83e85a;
+    padding:0px;
+    border-radius:50%;
+    font-family:courier;
+    transition:.3s;
+    width:25vw;
+    height:25vw;
+    /* background-image: url(https://as1.ftcdn.net/v2/jpg/05/52/99/70/500_F_552997022_T3K4dfb5Ini4N9xaXuK5C7aNJqZWtjPm.jpg); */
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    box-shadow: inset 1px 1px 2px #a1ff09,
+            inset -1px -1px 2px #00ffd9;
+  }
+  .array3:hover{
+    background-color:#83e85a88;
+    cursor:pointer;
+    opacity: 80%;
+  }
+  .array4{
+    background-color:#3b5441;
+    padding:0px;
+    border-radius:50%;
+    font-size:0px;
+    font-family:courier;
+    transition:.3s;
+    width:25vw;
+    height:25vw;
+    /* background-image: url(https://cs4.pikabu.ru/post_img/big/2014/08/08/8/1407497474_1637522375.jpg); */
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    box-shadow: inset 1px 1px 2px #ffda09,
+            inset -1px -1px 2px #ff9100;
+  }
+  .array4:hover{
+    background-color:#3b544188;
+    cursor:pointer;
+    opacity: 90%;
+  }
+  .array5{
+    background-color:#ff1f5a;
+    padding:0px;
+    border-radius:50%;
+    font-size:0px;
+    font-family:courier;
+    transition:.3s;
+    width:25vw;
+    height:25vw;
+    /* background-image: url(https://img.freepik.com/premium-photo/beautiful-large-lobster-blue-red-color-bottom-sea_124507-39422.jpg?w=2000); */
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    box-shadow: inset 1px 1px 2px #a1ff09,
+            inset -1px -1px 2px #00ffd9;
+  }
+  .array5:hover{
+    background-color:#ff1f5a77;
+    cursor:pointer;
+    opacity: 90%;
+  }
+  .array6{
+    background-color:#ff1f5a;
+    padding:0px;
+    border-radius:50%;
+    font-size:0px;
+    font-family:courier;
+    transition:.3s;
+    width:25vw;
+    height:25vw;
+    /* background-image: url(https://us.123rf.com/450wm/waichi2013th/waichi2013th2211/waichi2013th221100477/194212545-watercolor-whale-hand-painted-illustration-animal-watercolor-art-design-for-art-print-decoration.jpg?ver=6); */
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    box-shadow: inset 1px 1px 2px #0990ff,
+            inset -1px -1px 2px #00ffd9;
+  }
+  .array6:hover{
+    background-color:#ff1f5a77;
+    cursor:pointer;
+    opacity: 90%;
+  }
+  button{
+    margin-top:10px;
+  }
+  .array11{
+    background-color:#107a8b;
+    border-radius:50%;
+    font-size:0px;
+    font-family:courier;
+    transition:.3s;
+    margin:auto;
+    width:30vw;
+    height:30vw;
+    /* background-image: url(https://img.freepik.com/premium-photo/cool-tiger-logo-vector-illustration_780593-2690.jpg); */
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    box-shadow: inset 1px 1px 2px #a1ff09,
+            inset -1px -1px 2px #00ffd9;
+  }
+  .array11:hover{
+    background-color:#107a8b88;
+    cursor:pointer;
+    opacity: 80%;
+  }
+  .array22{
+    background-color:#2cb978;
+    border-radius:50%;
+    font-size:0px;
+    font-family:courier;
+      transition:.3s;
+      margin:auto;
+      width:30vw;
+      height:30vw;
+      /* background-image: url(https://i.ebayimg.com/images/g/bwIAAOSw-aliaKEO/s-l500.jpg); */
+      background-position: center;
+      background-size: cover;
+      box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+      box-shadow: inset 1px 1px 2px #a1ff09,
+            inset -1px -1px 2px #00ffd9;
+  }
+  .array22:hover{
+    background-color:#2cb97888;
+    cursor:pointer;
+    opacity: 90%;
+  }
+  .array33{
+    background-color:#83e85a;
+    border-radius:50%;
+    font-size:0px;
+    font-family:courier;
+    transition:.3s;
+    margin:auto;
+    width:30vw;
+    height:30vw;
+    /* background-image: url(https://img.freepik.com/free-vector/cute-chicken-chef-holding-fried-chicken-cartoon-icon-illustration-animal-food-icon-concept-isolated-flat-cartoon-style_138676-3132.jpg?w=2000); */
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    box-shadow: inset 1px 1px 2px #a1ff09,
+            inset -1px -1px 2px #00ffd9;
+  }
+  .array33:hover{
+    background-color:#83e85a88;
+    cursor:pointer;
+    opacity: 80%;
+  }
+  .container_2{
+    display: flex;
+    margin: auto;
+    margin-top: -40px;
+  }
+  .container_result_2{
+    width: 70vw;
+    height: 70vw;
+    background-color: #0000000b;
+    padding: 20px;
+    border-radius: 50%;
+    margin: auto;
+box-shadow: inset 3px 3px 4px #b1b1b1,
+            inset -3px -3px 4px #ffffff;
+  }
+  .container_bottom{
+    width: 40vw;
+    height: 40vw;
+    margin: auto;
+    margin-top: 0px;
+  }
+  .center {
+    text-align: center;
+    background-color:#09a1ff;
+    padding: 50px 50px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .center:active{
+    background-color: orange;
+  }
 }
   
