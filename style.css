@@ -303,7 +303,7 @@ box-shadow:  5px 5px 6px #b1b1b1,
   }
 }
 /* RESPONSIVE FOR MOBILE DEVICES  */
-@media screen and (max-width:700px) {
+@media screen and (max-width:1100px) {
   .container{
     display: grid;
     justify-content:space-between;
